@@ -50,3 +50,7 @@ resource "aws_iam_policy_attachment" "deployer-attach-user-policy" {
   users = ["${aws_iam_user.ringo_de_smet_name_deployer.name}"]
   policy_arn = "${aws_iam_policy.ringo_de_smet_name_deployer.arn}"
 }
+
+resource "aws_iam_access_key" "ringo_de_smet_name_deployer_key" {
+  user = "${aws_iam_user.ringo_de_smet_name_deployer.name}"
+}
