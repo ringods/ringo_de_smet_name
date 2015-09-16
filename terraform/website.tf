@@ -21,6 +21,11 @@ resource "aws_s3_bucket" "ringo_de_smet_name_bucket" {
   acl = "public-read"
   policy = "${template_file.website_bucket_policy.rendered}"
 
+  website {
+    index_document = "index.html"
+    error_document = "404.html"
+  }
+  
   tags {
     Name = "Static Website for ringo.de-smet.name"
     Generator = "http://gohugo.io"
