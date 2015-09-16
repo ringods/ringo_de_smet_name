@@ -5,3 +5,7 @@ public/*
 
 # Terraform state files
 .terraform
+
+# Wercker temporary files
+_builds
+_steps
