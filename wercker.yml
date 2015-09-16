@@ -31,9 +31,8 @@ dev:
 deploy:
   box: samueldebruyn/hugo-build
   steps:
-    - schickling/s3-website@0.3.0:
-        key: $KEY
-        secret: $SECRET
-        bucket: static.site.ringo.de-smet.name
-        region: eu-west-1
-        source_dir: public
+    - wercker/s3sync@2.0.3:
+        key-id: $KEY
+        key-secret: $SECRET
+        bucket-url: s3://static.site.ringo.de-smet.name
+        source-dir: public
