@@ -4,8 +4,6 @@ title = "Preparing for Amazon AWS Usage"
 author = "Koen"
 +++
 
-## Preparing for Amazon AWS Usage
-
 In order to experiment with [Amazon Web Services](http://aws.amazon.com/), I requested an AWS account and I installed a 
 bunch of software to get started. Here is an overview of what I did to get up and running.
 
