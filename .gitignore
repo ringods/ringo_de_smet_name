@@ -2,3 +2,6 @@
 public/*
 # http://direnv.net
 .envrc
+
+# Terraform state files
+.terraform
