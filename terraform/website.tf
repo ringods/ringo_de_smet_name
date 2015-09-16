@@ -26,3 +26,27 @@ resource "aws_s3_bucket" "ringo_de_smet_name_bucket" {
     Generator = "http://gohugo.io"
   }
 }
+
+resource "template_file" "deployer_role_policy" {
+  filename = "deployer_role_policy.json"
+  vars {
+    bucket = "${var.static_site_bucket_name}"
+  }
+}
+
+resource "aws_iam_policy" "ringo_de_smet_name_deployer" {
+  name = "${var.static_site_bucket_name}.deployer"
+  path = "/"
+  description = "Policy allowing to publish a new version of the website to the S3 bucket"
+  policy = "${template_file.deployer_role_policy.rendered}"
+}
+
+resource "aws_iam_user" "ringo_de_smet_name_deployer" {
+  name = "ringo_de_smet_name_deployer"
+}
+
+resource "aws_iam_policy_attachment" "deployer-attach-user-policy" {
+  name = "test-attachment"
+  users = ["${aws_iam_user.ringo_de_smet_name_deployer.name}"]
+  policy_arn = "${aws_iam_policy.ringo_de_smet_name_deployer.arn}"
+}
