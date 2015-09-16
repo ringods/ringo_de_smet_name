@@ -7,6 +7,8 @@ author = "Koen"
 In order to experiment with [Amazon Web Services](http://aws.amazon.com/), I requested an AWS account and I installed a 
 bunch of software to get started. Here is an overview of what I did to get up and running.
 
+<!--more-->
+
 ### Setting Up an AWS Account and the EC2 Tools
 
 I filled in the [registration form](https://aws-portal.amazon.com/gp/aws/developer/registration/index.html) to request 
@@ -14,8 +16,6 @@ a new AWS account. Then I followed the excellent
 [Getting Started Guide](http://docs.amazonwebservices.com/AWSEC2/2007-03-01/GettingStartedGuide/). 
 It explains how to set up an account, how to install the EC2 tools, how to run an instance, and how to create your own 
 image starting from an existing one. I immediately felt the power to EC2.
-
-<!--more-->
 
 The [AWS Service Health Dashboard](http://status.aws.amazon.com/) shows the status of AWS. It even shows 
 the status history of about 1 month.
