@@ -18,8 +18,4 @@ lines below to ~/.bash_login on my Mac, so that the environment variables are se
 I installed the tools in ~/AWS/ec2-api-tools-1.3-24159 and the private access key file and the certificate file 
 reside in ~/.ec2.
 
-    export EC2_PRIVATE_KEY=~/.ec2/pk-.pem
-    export EC2_CERT=~/.ec2/cert-.pem
-    export EC2_HOME=~/AWS/ec2-api-tools-1.3-24159
-    export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home
-    export PATH=$PATH:$EC2_HOME/bin
+{{< gist id="62f21d39075b5342b46a" file="env.sh" >}}

@@ -1,0 +1,1 @@
+<script type="text/javascript" src="{{ with .Get "id" }}https://gist.github.com/{{.}}.js{{ end }}{{ if isset .Params "file" }}?file={{ .Get "file" }}{{ end }}"></script>
