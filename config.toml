@@ -21,7 +21,7 @@ Copyright = "All rights reserved - 2015"
   hideHUGOSupport = false
 
 [permalinks]
-  post = "/:year/:month/:title/"
+  post = "/:year/:month/:slug/"
 
 [[menu.main]]
   name = "Blog"

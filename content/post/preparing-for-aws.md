@@ -1,6 +1,7 @@
 +++
 date = "2008-09-24T21:26:10+02:00"
 title = "Preparing for Amazon AWS Usage"
+slug = "preparing-for-amazon-aws-usage"
 author = "Koen"
 +++
 
