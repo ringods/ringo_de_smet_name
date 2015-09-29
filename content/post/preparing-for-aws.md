@@ -33,8 +33,8 @@ to have a nice management GUI.
 
 [Elasticfox](http://sourceforge.net/projects/elasticfox/) is a FireFox plug-in for interacting with EC2, 
 the Elasic Compute Cloud. When installed, it is available from the Tools menu. The plug-in opens in a web page and 
-shows the avalaible machine images (AMIs) and your instances. Running an instance is as simle as selecting an AMI and 
-pressing the "Launch Instance(s)" button. The list of public images is long. Elasticfox allows to filter the list.
+shows the avalaible machine images (AMIs) and your instances. Running an instance is as simple as selecting an AMI and 
+pressing the `Launch Instance(s)` button. The list of public images is long. Elasticfox allows to filter the list.
 
 The running instances show up in the "Your Instances" list. For each running instance, the public DNS name is shown, 
 so that you can use that to connect to the instance through SSH, HTTP or other means. In the "Your Instances" list 
@@ -60,7 +60,7 @@ which is also available as a public AMI and listed in Elasticfox. I use a Mac, s
 [downloaded the NX Client for Mac OSX](http://www.nomachine.com/download.php) (you can download NX Client for 
 other operating systems from the same location). In no time, I was able to manage the instance through a GUI.
 
-I selected "ami-0757b26e" from the list in Elasticfox and pressed the "Launch Instance(s)" button. In the dialog 
+I selected `ami-0757b26e` from the list in Elasticfox and pressed the `Launch Instance(s)` button. In the dialog 
 window that appeared, I entered my key pair and pressed the "Launch" button. When the instance was running, 
 I opened a terminal and entered:
 
