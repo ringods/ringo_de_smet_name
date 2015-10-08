@@ -80,7 +80,7 @@ We have to find the container id of our application container after running dock
 
 Let's commit our application container to an image and tag it:
 
-{< gist id="5995ea726914f280afb3" file="create-image.sh" >}}
+{{< gist id="5995ea726914f280afb3" file="create-image.sh" >}}
 
 # Run your application
 
