@@ -5,15 +5,15 @@ build:
         name: initialize git submodules
         code: |
             git submodule update --init --recursive
-#    - samueldebruyn/copy-files:
-#        source: staging
-#        destination: static
-#        ignore_branches: master
+    - samueldebruyn/copy-files:
+        source: staging
+        destination: static
+        ignore_branches: master
     - arjen/hugo-build@1.6.1:
         prod_branches: master
         dev_flags: --config=config-dev.toml
-#    - samueldebruyn/minify:
-#        only_on_branches: master
+    - samueldebruyn/minify:
+        only_on_branches: master
 
 dev:
   box: samueldebruyn/hugo-build
@@ -25,8 +25,8 @@ dev:
     - arjen/hugo-build@1.6.1:
         prod_branches: master
         dev_flags: --config=config-dev.toml
-#    - samueldebruyn/minify:
-#            only_on_branches: master
+    - samueldebruyn/minify:
+            only_on_branches: master
 
 deploy:
   box: samueldebruyn/hugo-build
@@ -34,5 +34,5 @@ deploy:
     - wercker/s3sync@2.0.3:
         key-id: $KEY
         key-secret: $SECRET
-        bucket-url: s3://static.site.ringo.de-smet.name
+        bucket-url: s3://$BRANCH.site.ringo.de-smet.name
         source-dir: public
