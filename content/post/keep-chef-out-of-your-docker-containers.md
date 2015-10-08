@@ -10,6 +10,8 @@ these tools to end up in your Docker images. Using
 [Docker Compose](https://docs.docker.com/compose/), we can do this and still have a slim image. 
 Here is how you can do it with Chef.
 
+<!--more-->
+
 ### TL;DR
 
 Prepare a `docker-compose.yml` file with 3 services: `chef`, `chefdata` and `app`.
