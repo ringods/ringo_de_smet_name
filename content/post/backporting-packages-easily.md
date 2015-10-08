@@ -10,9 +10,10 @@ the options of each of these tools. After fighting with these for some period, I
 I was pointed to the [backportpackage](http://manpages.ubuntu.com/manpages/precise/man1/backportpackage.1.html) 
 tool:
 
-     backportpackage fetches a package from one distribution release or from a specified 
-     .dsc path or URL and creates a no-change backport of that package to one or more Ubuntu releases release, 
-     optionally doing a test build of the package and/or uploading the resulting backport for testing.
+     backportpackage fetches a package from one distribution release or from a
+     specified .dsc path or URL and creates a no-change backport of that package
+     to one or more Ubuntu releases release, optionally doing a test build of 
+     the package and/or uploading the resulting backport for testing.
 
 This tool comes with the 
 [`ubuntu-dev-tools`](http://packages.ubuntu.com/search?keywords=ubuntu-dev-tools&amp;searchon=names&amp;suite=precise&amp;section=all) 
