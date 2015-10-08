@@ -34,7 +34,7 @@ the new git server. Let's get started!
 
 To convert MyComponent with full history, without tagging the git revisions with the TFS commit info, run:
 
-{{< gist id="168c2cf7726a536deb9c" file="convert.sh" >>}
+{{< gist id="168c2cf7726a536deb9c" file="convert.sh" >}}
 
 In the above example, only the Development branch was converted. The team already used a minimal 
 [Git Flow](http://nvie.com/posts/a-successful-git-branching-model/) like branch structure and the most granular 
