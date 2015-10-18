@@ -25,3 +25,13 @@ Now we can try out and execute with:
 
 Handle with care!
 
+## Remarks
+
+On S3, if you set `index.html` as the index object, it is valid for the root and all subdirectories.
+The default behavior for CloudFront is 
+[not like that](http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/DefaultRootObject.html).
+However, if you set the Origin of the CloudFront distribution to the S3 bucket domain, including the AWS region,
+then CloudFront follows the S3 setting. I found 
+[this solution](http://stackoverflow.com/questions/15309113/amazon-cloudfront-doesnt-respect-my-s3-website-buckets-index-html-rules)
+on StackOverflow.
+ 
