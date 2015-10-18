@@ -1,5 +1,5 @@
 +++
-date = "2015-04-14T19:04:51+02:00"
+date = "2015-03-14T19:04:51+02:00"
 title = "Keep Chef out of your Docker containers"
 slug = "keep-chef-out-of-your-docker-containers"
 +++
