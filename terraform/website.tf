@@ -16,7 +16,7 @@ resource "aws_iam_access_key" "ringo_de_smet_name_deployer_key" {
 ## Staging bucket
 variable "staging_site_bucket_name" {
   description = "S3 Bucket name for the Staging Website on AWS"
-  default = "staging.site.ringo.de-smet.name"
+  default = "staging-ringo.de-smet.name"
 }
 
 resource "template_file" "staging_website_bucket_policy" {

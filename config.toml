@@ -1,5 +1,4 @@
-#BaseURL = "http://ringo.de-smet.name/"
-BaseURL = "http://static.site.ringo.de-smet.name.s3-website-eu-west-1.amazonaws.com/"
+BaseURL = "http://ringo.de-smet.name/"
 LanguageCode = "en-uk"
 Title = "Ringo De Smet"
 Theme="casper"
