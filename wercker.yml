@@ -34,5 +34,5 @@ deploy:
     - wercker/s3sync@2.0.3:
         key-id: $KEY
         key-secret: $SECRET
-        bucket-url: s3://$BRANCH.site.ringo.de-smet.name
+        bucket-url: s3://$BUCKET
         source-dir: public
