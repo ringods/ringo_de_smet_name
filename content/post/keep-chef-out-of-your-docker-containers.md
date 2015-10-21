@@ -37,7 +37,7 @@ Create a folder containing your `Berksfile` for your application or service:
 
 {{< gist id="5995ea726914f280afb3" file="Berksfile" >}}
 
-Retrieve the cookbook and it's dependencies:
+Retrieve the cookbook and its dependencies:
 
 {{< gist id="5995ea726914f280afb3" file="berks.sh" >}}
 
