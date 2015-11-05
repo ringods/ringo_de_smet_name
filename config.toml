@@ -13,7 +13,7 @@ Copyright = "All rights reserved - 2015"
   authorwebsite = "http://ringo.de-smet.name"
   #bio= "my bio"
   #logo = "images/logo.png"
-  #googleAnalyticsUserID = ""
+  googleAnalyticsUserID = "UA-12279646-4"
   githubName = "ringods"
   twitterName = "ringods"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
