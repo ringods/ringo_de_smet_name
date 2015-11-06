@@ -62,6 +62,18 @@ resource "aws_iam_policy_attachment" "staging-deployer-attach-user-policy" {
   policy_arn = "${aws_iam_policy.staging_ringo_de_smet_name_deployer.arn}"
 }
 
+resource "aws_route53_record" "staging-ringo" {
+  zone_id = "ZK9VI1HPN7WWO"
+  name = "staging-ringo"
+  type = "A"
+
+  alias {
+    name = "${aws_s3_bucket.staging_ringo_de_smet_name_bucket.website_domain}"
+    zone_id = "${aws_s3_bucket.staging_ringo_de_smet_name_bucket.hosted_zone_id}"
+    evaluate_target_health = false
+  }
+}
+
 ## Production bucket
 variable "static_site_bucket_name" {
   description = "S3 Bucket name for the Static Website on AWS"
