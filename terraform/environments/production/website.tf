@@ -3,7 +3,7 @@
 ################################################################################################################
 
 module "site_main" {
-  source = "../../../../terraform-website-s3-cloudfront-route53/site-main"
+  source = "github.com/ringods/terraform-website-s3-cloudfront-route53//site-main"
 
   region = "eu-west-1"
   domain = "ringo.de-smet.name"
@@ -16,7 +16,7 @@ module "site_main" {
 }
 
 module "dns_main" {
-  source = "../../../../terraform-website-s3-cloudfront-route53/r53-cname"
+  source = "github.com/ringods/terraform-website-s3-cloudfront-route53//r53-cname"
 
   domain = "ringo.de-smet.name"
   target = "${module.site_main.website_cdn_hostname}"
