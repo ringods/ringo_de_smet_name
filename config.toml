@@ -1,9 +1,9 @@
-BaseURL = "http://ringo.de-smet.name/"
+BaseURL = "https://ringo.de-smet.name/"
 LanguageCode = "en-uk"
 Title = "Ringo De Smet"
 Theme="casper"
 DisqusShortname = "atriso"
-Copyright = "All rights reserved - 2015"
+Copyright = "All rights reserved - 2016"
 
 [params]
   description = "Code of Ringo"
