@@ -32,7 +32,7 @@ the change is also persisted over system reboots.
 
 With the proper access in place, we first create the VMDK file pointing to the raw device:
 
-{{< gist id="6ea183c5b86ce95e8d90" file="create-vmdk.sh" >>}
+{{< gist id="6ea183c5b86ce95e8d90" file="create-vmdk.sh" >}}
 
 Assuming that the VM `machine1` is already created and contains a storage controller, the raw disk is now 
 attached to the virtual machine:
