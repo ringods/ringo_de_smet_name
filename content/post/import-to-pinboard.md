@@ -7,6 +7,8 @@ slug = "import-delicious-into-pinboard"
 
 In a [previous article](/2017/01/exporting-delicious-bookmarks-2017/), I explained how to dump all your bookmarks from Delicious using a web scraper. As I'm switching to [Pinboard](https://pinboard.in), I still needed a way to import the exported bookmarks
 
+<!--more-->
+
 # Content structure
 
 The exported bookmark file is a CSV file, but with a snippet of JSON for the bookmark tags:
