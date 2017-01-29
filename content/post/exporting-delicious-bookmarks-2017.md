@@ -18,11 +18,11 @@ A Web Scraper sitemap is a description of the elements you want to scrape from t
 
 {{< gist id="3ac30de8ee28fadefa318ae857b365c5" file="sitemap.conf" >}}
 
-The sitemap also contains the set of URL's to scrape. At the end of the file above, you will see the `startUrl` section. Replace `<your_account_id> with your Delicious account name.
+The sitemap also contains the set of URL's to scrape. At the end of the file above, you will see the `startUrl` section. Replace `<your_account_id>` with your Delicious account name.
 I listed the start page followed by the enumeration from page 2 up to the maximum page number you have in your collection. Before you replace `<your_maximum_page>` with your real total number, try first with a small subset, e.g. `2-5`.
 
 Under `Create new sitemap`, you can `Import sitemap`.
 
 Now start scraping.
 
-When the scraping is done, you can `Browse` the results under the `Sitemap` section. But `Export as CSV` now to be able to post process them.
+When the scraping is done, you can `Browse` the results under the `Sitemap` section. But now `Export as CSV` to be able to post process them.
