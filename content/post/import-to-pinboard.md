@@ -1,7 +1,6 @@
 +++
 date = "2017-01-29T18:36:37+02:00"
 title = "Import the Delicious dump into Pinboard"
-draft = true
 slug = "import-delicious-into-pinboard"
 +++
 
