@@ -3,7 +3,8 @@ LanguageCode = "en-uk"
 Title = "Ringo De Smet"
 Theme="tranquilpeak"
 DisqusShortname = "atriso"
-Copyright = "All rights reserved - 2017"
+Copyright = "All rights reserved - 2018"
+googleAnalytics = "UA-12279646-4"
 
 [author]
   name = "Ringo De Smet"
