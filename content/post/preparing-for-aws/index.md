@@ -24,7 +24,7 @@ the status history of about 1 month.
 The [account activity](http://aws-portal.amazon.com/gp/aws/developer/account/index.html?ie=UTF8&amp;action=activity-summary) 
 (you need an AWS account to see this page) shows the costs involved with AWS usage.
 
-![Account Activity](/images/account-activity.png)
+![Account Activity](account-activity.png)
 
 ### Installing Useful FireFox Plug-Ins
 
@@ -41,13 +41,13 @@ so that you can use that to connect to the instance through SSH, HTTP or other m
 you can terminate instances when they are no longer necessary. Terminated instances are kept in the list until about 
 one hour after termination.
 
-![ElasticFox showing images and running instance](/images/elasticfox-showing-images-and-running-instance.png)
+![ElasticFox showing images and running instance](elasticfox-showing-images-and-running-instance.png)
 
 [S3Fox Organizer for Amazon](http://www.rjonna.com/ext/s3fox.php) enables access to Amazon S3 (Simple Storage Service).
 It shows the contents of your buckets on S3 and you can download and upload files. Simply entering you account ID, 
 the access key and the secret key, and you are ready to roll.
 
-![S3Fox showing upload to S3 bucket](/images/s3fox-showing-upload-to-s3-bucket.png)
+![S3Fox showing upload to S3 bucket](s3fox-showing-upload-to-s3-bucket.png)
 
 ### Installing Desktop Access to Instances
 
@@ -73,12 +73,12 @@ Using the provided information, user "root" logs in automatically. Then I entere
 and followed the instructions to enter a user name (I chose "koen") and a password. 
 Then I started NX Client and configured it as follows:
 
-![NX Client login](/images/nx-client-login.png)
-![NX Client host configuration](/images/nx-client-host-configuration.png)
+![NX Client login](nx-client-login.png)
+![NX Client host configuration](nx-client-host-configuration.png)
 
 After pressing "Login" and waiting for the connection to be setup, this was the result (I already opened the home 
 folder before making the screen shot): the Ubuntu desktop in X11.
 
-![Unbuntu destop in X11](/images/ubuntu-desktop-in-x11.png)
+![Unbuntu destop in X11](ubuntu-desktop-in-x11.png)
 
 Cool.

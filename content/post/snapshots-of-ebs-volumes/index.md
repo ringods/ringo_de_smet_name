@@ -63,7 +63,7 @@ Time to attach the volume (in the orginal terminal):
 Let's see whether it is available. Connect to the desktop as described in 
 [Preparing for Amazon AWS Usage](/2008/09/preparing-for-amazon-aws-usage/).
 
-![Device available in Ubuntu](/images/device-available-in-ubuntu.png)
+![Device available in Ubuntu](device-available-in-ubuntu.png)
 
 In the terminal connected to the instance, we can mount the volume now:
 
@@ -72,6 +72,6 @@ In the terminal connected to the instance, we can mount the volume now:
 Now the volume should be mounted as `my-volume` and accessible. Let's verify that by opening a file browser on 
 that volume.
 
-![Volume mounted in ubuntu](/images/volume-mounted-in-ubuntu.png)
+![Volume mounted in ubuntu](volume-mounted-in-ubuntu.png)
 
 Indeed, the `readme` file that was on the original volume is also on the new volume created from the snapshot.
