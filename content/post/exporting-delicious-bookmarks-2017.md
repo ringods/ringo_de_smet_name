@@ -1,5 +1,5 @@
 +++
-date = "2017-01-26T22:17:00+02:00"
+date = "2017-01-26"
 title = "Exporting Delicious Bookmarks anno 2017"
 slug = "exporting-delicious-bookmarks-2017"
 +++

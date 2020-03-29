@@ -1,5 +1,5 @@
 +++
-date = "2012-08-21T09:44:37+02:00"
+date = "2012-08-21"
 title = "Virtualbox and raw host disk access"
 slug = "virtualbox-raw-disk"
 +++

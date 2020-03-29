@@ -1,5 +1,5 @@
 +++
-date = "2008-09-26T14:56:10+02:00"
+date = "2008-09-26"
 title = "Snapshots of EBS Volumes"
 slug = "snapshots-of-ebs-volumes"
 author = "Koen"

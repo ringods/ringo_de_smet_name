@@ -1,5 +1,5 @@
 +++
-date = "2013-02-21T21:21:37+02:00"
+date = "2013-02-21"
 title = "Migrating from TFS to Git with converted metadata"
 slug = "migrating-from-tfs-to-git"
 +++

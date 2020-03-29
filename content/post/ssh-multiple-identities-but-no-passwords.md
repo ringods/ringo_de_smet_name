@@ -1,5 +1,5 @@
 +++
-date = "2009-05-05T22:10:20+02:00"
+date = "2009-05-05"
 title = "SSH, multiple identities, but no passwords!"
 slug = "ssh-multiple-identities-but-no-passwords"
 +++

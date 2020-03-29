@@ -1,5 +1,5 @@
 +++
-date = "2012-06-04T11:56:37+02:00"
+date = "2012-06-04"
 title = "Backporting Debian/Ubuntu packages the easy way."
 slug = "backporting-packages-easily"
 +++

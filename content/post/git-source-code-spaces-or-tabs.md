@@ -1,5 +1,5 @@
 +++
-date = "2013-02-08T14:31:17+02:00"
+date = "2013-02-08"
 title = "Git, source code, spaces or tabs?"
 slug = "git-source-code-spaces-or-tabs"
 +++

@@ -1,5 +1,5 @@
 +++
-date = "2008-09-25T13:45:10+02:00"
+date = "2008-09-25"
 title = "Sharing EBS Volumes Among Instances"
 slug = "sharing-ebs-volumes-among-instances"
 author = "Koen"

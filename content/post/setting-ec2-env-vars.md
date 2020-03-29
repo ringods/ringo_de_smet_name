@@ -1,5 +1,5 @@
 +++
-date = "2008-09-25T11:45:10+02:00"
+date = "2008-09-25"
 title = "Setting EC2 Environment Variables in ~/.bash_login"
 slug = "setting-ec2-environment-variables-in-bash_login"
 author = "Koen"
